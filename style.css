@@ -52,12 +52,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@font-face {
-    font-family: 'Orator Std Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
-}
 header
 {
 	display: inline-block;
@@ -138,7 +132,7 @@ header ul li a:hover:before
 .shortitle h4
 {
 	font-size:20px;
-	font-family: orator std;
+	font-family: sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	padding-bottom: 20px;
@@ -151,7 +145,7 @@ header ul li a:hover:before
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #fff;
-	font-family: orator std;
+	font-family: sans-serif;
 	animation-delay: 1s;
 }
 .profile-pic
@@ -178,7 +172,7 @@ header ul li a:hover:before
 }
 .story{
 	margin-top: 30px;
-	font-family: orator std;
+	font-family: sans-serif;
 	font-size: 24px;
 	color: #FFC300;
 	text-transform: uppercase;
@@ -214,7 +208,7 @@ header ul li a:hover:before
   display: inline-block;
   border-bottom: 2px solid;
   padding-top: 150px;
-  font-family: helvetica;
+  font-family: serif;
 }
 .school
 {
@@ -300,7 +294,7 @@ header ul li a:hover:before
 .hometown p
 {
 	color: #ffc300;
-	font-family: orator std;
+	font-family: sans-serif;
 	text-transform: uppercase;
 	font-size: 24px;
 	margin-top: 30px;
@@ -328,7 +322,7 @@ header ul li a:hover:before
 	padding-left: 30px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: orator std;
+	font-family: sans-serif;
 	font-size: 20px;
 }
 .hobbies
