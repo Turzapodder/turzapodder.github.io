@@ -52,6 +52,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@font-face {
+    font-family: 'Orator Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
+}
 header
 {
 	display: inline-block;
